@@ -1,0 +1,8 @@
+{"date":"2026-08-25","code":"034020","flow":"fail","at1500":null,"outcome":"excluded","sealed":true}
+{"date":"2026-08-25","code":"000720","flow":"hold","at1500":null,"outcome":"excluded","sealed":true}
+{"date":"2026-08-25","code":"278470","flow":"pass","at1500":null,"outcome":"theme_fail","outcomeLabel":"재료 탈락","sealed":true}
+{"date":"2026-08-25","code":"403870","flow":"fail","at1500":null,"outcome":"excluded","sealed":true}
+{"date":"2026-08-25","code":"047040","flow":"pass","at1500":"watch","outcome":"pending","sealed":true}
+{"date":"2026-08-25","code":"010130","flow":"hold","at1500":null,"outcome":"excluded","sealed":true}
+{"date":"2026-08-25","code":"001820","flow":"hold","at1500":null,"outcome":"excluded","sealed":true}
+{"date":"2026-08-25","code":"124500","flow":"hold","at1500":null,"outcome":"excluded","sealed":true}
