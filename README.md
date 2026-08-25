@@ -1,2 +1,5 @@
-# jongga-ops-hq
-종가배팅 운용 본부 관찰 대시보드 (static). Source of truth is Origin heymyai/tmp-1e6b61df5b9a8dc5.
+# 종가배팅 운용 본부 (Pages)
+
+Public static build. Source of truth: [Origin heymyai/tmp-1e6b61df5b9a8dc5](https://cursor.com/codebase/heymyai/tmp-1e6b61df5b9a8dc5).
+
+Live: https://heymybiz.github.io/jongga-ops-hq/

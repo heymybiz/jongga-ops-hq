@@ -1,0 +1,9 @@
+{
+  "asOf": "2026-08-25",
+  "days": ["2026-08-25"],
+  "calendar": [
+    { "date": "2026-08-25" },
+    { "date": "2026-08-26", "empty": true, "noBackfill": true },
+    { "date": "2026-08-27", "empty": true, "noBackfill": true }
+  ]
+}
