@@ -22,7 +22,7 @@
         <div class="controls">
           <span class="date-chip">${i(e.date)}</span>
           ${Array.from({length:u},(e,t)=>t+1).map(e=>`<button class="slot${r.slot===e?` active`:``}" type="button" data-slot="${e}">${e}</button>`).join(``)}
-          <span class="hint">숫자 누르면 관찰 카드가 바낀다. 오늘은 ${t.length}만 있다.</span>
+          <span class="hint">숫자 누르면 관찰 카드가 바뀐다. 오늘은 ${t.length}만 있다.</span>
         </div>
         ${n?M(n,t.length):j()}
       </div>
@@ -49,7 +49,7 @@
       </div>
       <div class="risk-box">
         <strong>최대 손실 ${s(a.maxLoss)}</strong>
-        <span>손절가 ${o(e.stop)}에 닮으면</span>
+        <span>손절가 ${o(e.stop)}에 닿으면</span>
       </div>
     </div>
     <div class="range">
@@ -151,7 +151,7 @@
     <div class="account-grid">
       <section class="panel">
         <h2>넣은 종목</h2>
-        <p class="help">${r.fills.length?`fills.jsonl에 적힌 실제 체결만 보여 준다.`:s?`아직 넣은 종목 없음. 내일 시초에 ${i(c.name)}을 새으면 수량과 산 가격을 적는다.`:`아직 넣은 종목 없음. 산 뒤에 fills.jsonl에 수량과 가격을 적는다.`}</p>
+        <p class="help">${r.fills.length?`fills.jsonl에 적힌 실제 체결만 보여 준다.`:s?`아직 넣은 종목 없음. 내일 시초에 ${i(c.name)}을 샀으면 수량과 산 가격을 적는다.`:`아직 넣은 종목 없음. 산 뒤에 fills.jsonl에 수량과 가격을 적는다.`}</p>
         <table>
           <thead>
             <tr>
