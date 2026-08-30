@@ -1,0 +1,17 @@
+{
+  "name": "종가배팅 운용 본부 (static site)",
+  "install": "python3 --version",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8080 --bind 0.0.0.0 --directory /workspace",
+      "description": "Serves the prebuilt static dashboard (index.html, assets, and data/) over HTTP on port 8080."
+    }
+  ],
+  "ports": [
+    {
+      "name": "static-server",
+      "port": 8080
+    }
+  ]
+}
